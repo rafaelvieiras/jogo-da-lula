@@ -19,6 +19,7 @@ export class MockGameRepository implements GameRepositoryInterface {
             gamePot: 0,
             voteCount: 0,
             gameStarted: false,
+            gameEnded: false,
             ...partial
         });
     }
